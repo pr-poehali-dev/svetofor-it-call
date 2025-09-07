@@ -129,10 +129,11 @@ const Index = () => {
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Tabs value={activeTab} onValueChange={setActiveTab}>
-          <TabsList className="grid w-full grid-cols-3">
+          <TabsList className="grid w-full grid-cols-4">
             <TabsTrigger value="create">Создать заявку</TabsTrigger>
             <TabsTrigger value="track">Отслеживание</TabsTrigger>
             <TabsTrigger value="services">Услуги</TabsTrigger>
+            <TabsTrigger value="stores">Магазины</TabsTrigger>
           </TabsList>
 
           {/* Create Ticket */}
